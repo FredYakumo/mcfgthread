@@ -18,6 +18,8 @@ on:
     branches:
       - master
 
+  workflow_dispatch:
+
 jobs:
   ubuntu-x86-64:
     name: Ubuntu cross build (x86-64 GCC; Wine)
